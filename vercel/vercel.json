@@ -1,15 +1,1 @@
-{
-  "version": 2,
-  "builds": [
-    {
-      "src": "api/**/*.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/stats",
-      "dest": "/api/stats.js"
-    }
-  ]
-}
+{"functions":{"api/stats.js":{"maxDuration":10}}}
